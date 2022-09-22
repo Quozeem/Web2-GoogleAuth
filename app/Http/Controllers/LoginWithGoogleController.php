@@ -21,7 +21,7 @@ class LoginWithGoogleController extends Controller
         try {
       
             $user = Socialite::driver('google')->user();
-       
+      
             $finduser = GoogleAuth::where('google_id', $user->id)->first();
        
             if($finduser){
