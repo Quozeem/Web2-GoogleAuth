@@ -12,6 +12,7 @@ use Exception;
 class LoginWithGoogleController extends Controller
 {
      public function redirectToGoogle()
+
     {
         return Socialite::driver('google')->redirect();
     }
