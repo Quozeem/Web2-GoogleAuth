@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
+
 use Laravel\Socialite\Facades\Socialite;
 use App\Models\GoogleAuth;
 use Illuminate\Support\Facades\Auth;
