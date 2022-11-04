@@ -9,6 +9,7 @@ use App\Models\GoogleAuth;
 use Illuminate\Support\Facades\Auth;
 use Exception;
 
+
 class LoginWithGoogleController extends Controller
 {
      public function redirectToGoogle()
