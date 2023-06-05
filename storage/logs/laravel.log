@@ -2,12 +2,17 @@
 [stacktrace]
 #0 {main}
 "} 
-[2022-07-27 05:23:27] local.ERROR: Undefined constant "js" (View: C:\Users\DELL\Documents\laravel\React\resources\views\welcome.blade.php) {"view":{"view":"C:\\Users\\DELL\\Documents\\laravel\\React\esources\\views/welcome.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-783309675 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#294</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-07-27 05:23:27] local.ERROR: Undefined constant "js" (View: C:\Users\DELL\Documents\laravel\React\resources\views\welcome.blade.php) {"view":{"view":"C:\\Users\\DELL\\Documents\\laravel\\React\
+esources\\views/welcome.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-783309675 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#294</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-783309675\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined constant \"js\" (View: C:\\Users\\DELL\\Documents\\laravel\\React\esources\\views\\welcome.blade.php) at C:\\Users\\DELL\\Documents\\laravel\\React\esources\\views/welcome.blade.php:24)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined constant \"js\" (View: C:\\Users\\DELL\\Documents\\laravel\\React\
+esources\\views\\welcome.blade.php) at C:\\Users\\DELL\\Documents\\laravel\\React\
+esources\\views/welcome.blade.php:24)
 [stacktrace]
+
+
 #0 C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require()
 #1 C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #2 C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\DELL\\\\D...', Array)
@@ -460,7 +465,8 @@
 "} 
 [2022-07-30 12:28:15] local.ERROR: Method Illuminate\View\View::middleware does not exist. {"exception":"[object] (BadMethodCallException(code: 0): Method Illuminate\\View\\View::middleware does not exist. at C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php:413)
 [stacktrace]
-#0 C:\\Users\\DELL\\Documents\\laravel\\React\outes\\web.php(22): Illuminate\\View\\View->__call('middleware', Array)
+#0 C:\\Users\\DELL\\Documents\\laravel\\React\
+outes\\web.php(22): Illuminate\\View\\View->__call('middleware', Array)
 #1 C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(238): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #2 C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(208): Illuminate\\Routing\\Route->runCallable()
 #3 C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(695): Illuminate\\Routing\\Route->run()
@@ -610,9 +616,11 @@
 #45 C:\\Users\\DELL\\Documents\\laravel\\React\\server.php(21): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #46 {main}
 "} 
-[2022-07-30 13:11:45] local.ERROR: Cannot end a section without first starting one. (View: C:\Users\DELL\Documents\laravel\React\resources\views\dashboard.blade.php) {"view":{"view":"C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Concerns\\ManagesLayouts.php","data":[]},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Cannot end a section without first starting one. (View: C:\\Users\\DELL\\Documents\\laravel\\React\esources\\views\\dashboard.blade.php) at C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Concerns\\ManagesLayouts.php:86)
+[2022-07-30 13:11:45] local.ERROR: Cannot end a section without first starting one. (View: C:\Users\DELL\Documents\laravel\React\resources\views\dashboard.blade.php) {"view":{"view":"C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Concerns\\ManagesLayouts.php","data":[]},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Cannot end a section without first starting one. (View: C:\\Users\\DELL\\Documents\\laravel\\React\
+esources\\views\\dashboard.blade.php) at C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Concerns\\ManagesLayouts.php:86)
 [stacktrace]
-#0 C:\\Users\\DELL\\Documents\\laravel\\React\esources\\views/dashboard.blade.php(99): Illuminate\\View\\Factory->stopSection()
+#0 C:\\Users\\DELL\\Documents\\laravel\\React\
+esources\\views/dashboard.blade.php(99): Illuminate\\View\\Factory->stopSection()
 #1 C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require('C:\\\\Users\\\\DELL\\\\D...')
 #2 C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #3 C:\\Users\\DELL\\Documents\\laravel\\React\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\DELL\\\\D...', Array)
