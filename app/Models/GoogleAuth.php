@@ -8,7 +8,6 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-
 class GoogleAuth extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
